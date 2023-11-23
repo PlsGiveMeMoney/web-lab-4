@@ -1,0 +1,176 @@
+.menu{
+	display:flex;
+	height:100px;
+	width:90%;
+	margin:auto;
+}
+
+.menu-headline{
+	flex-basis: 40%;
+
+	background:LightGray;
+	
+}
+.menu-headline h3{
+	font-weight:bold;
+	text-align:center;
+	margin:40px 0 0 0;
+	
+}
+.menu-item{
+	text-align:center;
+}
+.menu-refs{
+	display:inline-flex;
+	align-self:flex-end;
+	flex-basis: 60%;
+	justify-content:space-evenly;
+background:LightGray;
+}
+.menu-ref{
+	background:gray;
+	margin:10px;
+	
+	padding:5px;
+}
+.are-here{
+	text-decoration:none;
+	color:white;
+background:black;}
+.arent-here{
+	text-decoration:none;
+color:white;;}
+
+.article-imgs{
+	max-height:400px;
+	
+	flex-direction:row;
+	justify-content: center;
+	display:inline-flex;
+	
+}
+.side-imgs{
+	width:44.5%;
+	margin:0.5%;
+}
+.article-img{
+	width:100%;
+height:100%;}
+
+.split-side-imgs{
+	align-content:stretch;
+	justify-content:space-evenly;
+	flex-direction:column;
+	height:49.5%;
+	
+}
+
+.logo-article-menu{
+	display:flex;
+	width:70%;
+	margin:auto;
+	justify-content:space-evenly;
+	
+}
+.logo-article{
+	width:31%;
+	margin:1%;
+	text-align:center;
+	
+}	
+.logo-img{
+border-radius:100px;
+width:100px;
+height:100px;
+
+}
+.articles{
+	display:flex;
+	flex-direction:column;
+width:80%;
+margin:auto;
+
+}
+.article{
+	margin:4px;
+	border: 2px solid gray;
+	display:flex;
+	flex-wrap:wrap;
+	padding:5px;
+}
+.article-with-img{
+	margin:4px;
+	border: 2px solid gray;
+	display:inline-flex;
+	padding:5px;
+}
+.article-text{
+width:74%;}
+.article-with-img img{
+margin:4px;
+width:24%;
+}
+.article h2{
+text-align:center;
+width:100%}
+
+span{float:right}
+.bg{background:LightGray;}
+
+@media(max-width:900px){ 
+	.menu-headline{
+	width:100%;}
+	.menu{
+	flex-wrap:wrap;
+	height:auto;}
+	.article-imgs{
+		display:inline-flex;
+		flex-wrap:wrap;
+		margin:auto;
+		
+		max-height:700px;
+		
+		
+	}
+	.side-imgs{
+	width:90%;
+	
+	max-height:300px;
+	display:flex;
+	flex-wrap:wrap;
+	
+	}
+	.split-side-imgs{
+	max-height:300px;
+	align-items:stretch;
+	flex-direction:row;
+	width:100%;
+	}
+	.logo-article-menu{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.menu-headline{
+	flex-basis: 100%;
+
+	background:white;
+	
+}
+
+.menu-refs{
+	display:inline-flex;
+	flex-wrap:wrap;
+	align-self:flex-end;
+	flex-basis: 100%;
+	justify-content:space-evenly;
+background:white;}
+.menu-ref{
+	background:gray;
+	margin:5px;
+	width:45%;
+	
+	padding:5px;
+}
+
+}
